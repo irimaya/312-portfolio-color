@@ -8,27 +8,23 @@
 }
 
 /* Main Styling */
-body,
-html {
+html,
+body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
 	font-size: 2.5rem;
 }
+
 h2 {
 	font-size: 2rem;
-	font-weight: 500;
 }
 
 h1,
 h2 {
 	margin-bottom: 15px;
 	font-weight: 300;
-}
-
-ul {
-	list-style: none;
 }
 
 img {
@@ -69,18 +65,19 @@ hr {
 	color: #fff;
 }
 
-.small {
-	font-size: 12px;
+.bk-color {
+	background-image: linear-gradient(to right, #4fa49a, #4361c2);
+}
+
+.bk-image {
+	background: url('/images/details.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .display-1 {
 	font-size: 3rem;
-	font-weight: 300;
-}
-
-.display-2 {
-	font-size: 2.2rem;
-	font-weight: 300;
 }
 
 .btn {
@@ -88,7 +85,6 @@ hr {
 	text-transform: uppercase;
 	font-size: 12px;
 	padding: 12px 25px;
-	cursor: pointer;
 	font-weight: bold;
 	border-radius: 4px;
 }
@@ -100,7 +96,7 @@ hr {
 
 .btn-outline:hover {
 	background: #fff;
-	color: #fff;
+	color: #4361c2;
 }
 
 .p-1 {
@@ -125,10 +121,6 @@ hr {
 	margin: 0 auto;
 }
 
-.bk-color {
-	background-image: linear-gradient(to right, #4fa49a, #4361c2);
-}
-
 .flex {
 	display: flex;
 	justify-content: space-between;
@@ -139,18 +131,7 @@ hr {
 	margin: 30px;
 }
 
-/* About */
-#about img {
-	padding-left: 80px;
-}
-
 /* Details */
-#details {
-	background: url('/images/details.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
 #details .flex {
 	padding-top: 60px;
 }
@@ -158,7 +139,6 @@ hr {
 /* Portfolio */
 #portfolio hr {
 	margin: 0 auto;
-	margin-bottom: 30px;
 }
 
 /* Footer */
